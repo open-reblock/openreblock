@@ -86,6 +86,7 @@ gulp.task('fonts', () => {
 gulp.task('data', () => {
   return gulp.src([
     'app/data/*.*',
+    'app/data/**/*.*',
   ], {
     dot: true
   }).pipe(gulp.dest('dist/data'));
@@ -93,7 +94,6 @@ gulp.task('data', () => {
 
 gulp.task('extras', () => {
   return gulp.src([
-    'app/data/*.*',
     'app/*.*',
     'app/CNAME',
     '!app/*.html'
@@ -120,7 +120,7 @@ gulp.task('serve', ['styles', 'fonts'], () => {
     'app/*.html',
     'app/scripts/**/*.js',
     'app/images/**/*',
-    'app/data/*',
+    'app/data/**/*',
     '.tmp/fonts/**/*'
   ]).on('change', reload);
 
