@@ -34,13 +34,15 @@ var tiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?ac
 });
 tiles.addTo(map);
 
-var geojsonLayer = new L.GeoJSON.AJAX('data/data.json', {
+var geojsonLayer = new L.GeoJSON.AJAX('data/epworth/epworth_0.json', {
     style: function(feature) {
         'use strict';
-        switch (feature.properties.segment_type) {
-            case 'road': return ROAD_STYLES;
-            case 'inner': return INNER_STYLES;
-            default: return DEFAULT_STYLES;
+        if (feature.properties.road === 'true') {
+            return ROAD_STYLES;
+        } else if (feature.properties.interior === 'true') {
+            return INNER_STYLES;
+        } else {
+            return DEFAULT_STYLES;
         }
     }
 });
