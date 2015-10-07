@@ -1,0 +1,19 @@
+{
+    "total_steps": 2,
+    "steps": [
+        {
+            "file": "epworth_0.json",
+            "path_area": 50,
+            "parcel_area": 10000,
+            "path_percent": 12,
+            "isolated_parcels": 7
+        },
+        {
+            "file": "epworth_1.json",
+            "path_area": 450,
+            "parcel_area": 8000,
+            "path_percent": 25,
+            "isolated_parcels": 0
+        }
+    ]
+}

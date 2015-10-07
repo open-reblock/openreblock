@@ -16,7 +16,15 @@ var INNER_STYLES = {
                 fillOpacity: 0.8
              };
 
-var ROAD_STYLES = {
+var ORIGINAL_ROAD_STYLES = {
+                weight: 2.5,
+                color: '#2F4F4F',
+                opacity: 0.7,
+                fillColor: '#B0DE5C',
+                fillOpacity: 0.7
+            };
+
+var NEW_ROAD_STYLES = {
                 weight: 2.5,
                 color: '#2F4F4F',
                 opacity: 0.8,
@@ -38,7 +46,9 @@ var geojsonLayer = new L.GeoJSON.AJAX('data/epworth/epworth_0.json', {
     style: function(feature) {
         'use strict';
         if (feature.properties.road === 'true') {
-            return ROAD_STYLES;
+            return NEW_ROAD_STYLES;
+        } else if (feature.properties.original_road === 'true') {
+            return ORIGINAL_ROAD_STYLES;
         } else if (feature.properties.interior === 'true') {
             return INNER_STYLES;
         } else {
@@ -53,20 +63,30 @@ geojsonLayer.on('data:loaded', function() {
   map.fitBounds(geojsonLayer.getBounds());
 });
 
-$('.step-slider').slider({
-    max: 5
-}).slider('pips', {
-    first: 'pip',
-    last: 'pip'
-}).slider('float');
+
+var stat_data = {};
+$.getJSON( "data/epworth/stats.json", function( data ) {
+    var steps = data['total_steps'] - 1;
+    $('.step-slider').slider({
+        max: steps
+    }).slider('pips', {
+        first: 'pip',
+        last: 'pip'
+    }).slider('float');
+
+    stat_data = data;
+});
 
 $('.step-slider').slider({
     change: function(event, ui) {
-        var step = ui.value;
-        if (step > 0) {
-            geojsonLayer.refresh('data/epworth/epworth_1.json');
-        } else {
-            geojsonLayer.refresh('data/epworth/epworth_0.json');
-        }
+        var step = ui.value,
+            path = 'data/epworth/',
+            step_data = stat_data.steps[step];
+
+        $('#stat-paths').text(step_data['path_area']);
+        $('#stat-parcels').text(step_data['parcel_area']);
+        $('#stat-area').text(step_data['path_percent']);
+        $('#stat-isolated').text(step_data['isolated_parcels']);
+        geojsonLayer.refresh(path + step_data['file']);
     }
 });
