@@ -95,6 +95,7 @@ gulp.task('extras', () => {
   return gulp.src([
     'app/data/*.*',
     'app/*.*',
+    'app/CNAME',
     '!app/*.html'
   ], {
     dot: true
