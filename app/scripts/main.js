@@ -64,9 +64,10 @@ geojsonLayer.on('data:loaded', function() {
 });
 
 
-var stat_data = {};
-$.getJSON( "data/epworth/stats.json", function( data ) {
-    var steps = data['total_steps'] - 1;
+var statData = {};
+$.getJSON( 'data/epworth/stats.json', function( data ) {
+    'use strict';
+    var steps = data.total_steps - 1;
     $('.step-slider').slider({
         max: steps
     }).slider('pips', {
@@ -74,19 +75,20 @@ $.getJSON( "data/epworth/stats.json", function( data ) {
         last: 'pip'
     }).slider('float');
 
-    stat_data = data;
+    statData = data;
 });
 
 $('.step-slider').slider({
     change: function(event, ui) {
+        'use strict';
         var step = ui.value,
             path = 'data/epworth/',
-            step_data = stat_data.steps[step];
+            stepData = statData.steps[step];
 
-        $('#stat-paths').text(step_data['path_area']);
-        $('#stat-parcels').text(step_data['parcel_area']);
-        $('#stat-area').text(step_data['path_percent']);
-        $('#stat-isolated').text(step_data['isolated_parcels']);
-        geojsonLayer.refresh(path + step_data['file']);
+        $('#stat-paths').text(stepData.path_area);
+        $('#stat-parcels').text(stepData.parcel_area);
+        $('#stat-area').text(stepData.path_percent);
+        $('#stat-isolated').text(stepData.isolated_parcels);
+        geojsonLayer.refresh(path + stepData.file);
     }
 });

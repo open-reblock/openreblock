@@ -34,7 +34,8 @@ function lint(files, options) {
 }
 const deployLintOptions = {
   globals: {
-    'L': true
+    'L': true,
+    '$': true
   }
 };
 const testLintOptions = {
