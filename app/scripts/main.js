@@ -59,3 +59,14 @@ $('.step-slider').slider({
     first: 'pip',
     last: 'pip'
 }).slider('float');
+
+$('.step-slider').slider({
+    change: function(event, ui) {
+        var step = ui.value;
+        if (step > 0) {
+            geojsonLayer.refresh('data/epworth/epworth_1.json');
+        } else {
+            geojsonLayer.refresh('data/epworth/epworth_0.json');
+        }
+    }
+});
