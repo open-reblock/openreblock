@@ -1,1 +1,2997 @@
-{"type": "FeatureCollection", "features": [{"geometry": {"type": "LineString", "coordinates": [[306592.17999999999, 8020858.1299999999], [306586.88, 8020866.0800000001]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306586.88, 8020866.0800000001], [306568.08000000002, 8020884.8799999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306603.56, 8020875.6200000001], [306586.88, 8020866.0800000001]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306552.56, 8020955.9900000002], [306558.41999999998, 8020957.25]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306547.87, 8020954.4900000002], [306552.56, 8020955.9900000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306588.34999999998, 8020895.8099999996], [306568.08000000002, 8020884.8799999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306568.08000000002, 8020884.8799999999], [306561.60999999999, 8020891.3499999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306568.14000000001, 8020959.1799999997], [306575.39000000001, 8020960.4900000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306575.39000000001, 8020960.4900000002], [306576.15999999997, 8020960.5499999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306693.40000000002, 8020912.9900000002], [306693.95000000001, 8020911.9799999995]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306693.95000000001, 8020911.9799999995], [306694.90999999997, 8020908.5599999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306678.46999999997, 8020855.04], [306673.64000000001, 8020852.5899999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306673.64000000001, 8020852.5899999999], [306665.19, 8020850.2699999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306626.15000000002, 8020956.2599999998], [306633.46999999997, 8020944.0300000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306633.46999999997, 8020944.0300000003], [306637.19, 8020938.5999999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306710.45000000001, 8020873.4199999999], [306710.90999999997, 8020872.7800000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306707.03999999998, 8020876.3200000003], [306710.45000000001, 8020873.4199999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306620.25, 8020966.2999999998], [306625.28999999998, 8020957.7000000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306625.28999999998, 8020957.7000000002], [306626.15000000002, 8020956.2599999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306594.34000000003, 8020964.3499999996], [306599.84000000003, 8020966.5300000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306599.84000000003, 8020966.5300000003], [306600.52999999997, 8020966.7199999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306625.62, 8020880.21], [306603.56, 8020875.6200000001]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306628.22999999998, 8020865.0499999998], [306625.62, 8020880.21]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306625.62, 8020880.21], [306625.40999999997, 8020887.1799999997]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306601.15000000002, 8020835.71], [306598.5, 8020838.1600000001]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306614.19, 8020837.9500000002], [306601.15000000002, 8020835.71]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306613.64000000001, 8020929.25], [306603.32000000001, 8020947.9199999999]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306605.73999999999, 8020948.7999999998], [306603.32000000001, 8020947.9199999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306592.40000000002, 8020943.9299999997], [306603.32000000001, 8020947.9199999999]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306642.84999999998, 8020931.1299999999], [306647.65999999997, 8020925.9699999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306647.65999999997, 8020925.9699999997], [306653.84999999998, 8020918.75]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306541.20000000001, 8020952.2199999997], [306547.87, 8020954.4900000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306527.41999999998, 8020944.4799999995], [306536.21999999997, 8020949.2699999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306522.0, 8020942.2999999998], [306527.41999999998, 8020944.4799999995]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306603.56, 8020875.6200000001], [306594.57000000001, 8020899.1699999999]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306589.46999999997, 8020962.9799999995], [306594.34000000003, 8020964.3499999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306570.70000000001, 8020936.0099999998], [306562.42999999999, 8020958.1699999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306582.60999999999, 8020940.3600000003], [306570.70000000001, 8020936.0099999998]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306570.70000000001, 8020936.0099999998], [306568.72999999998, 8020935.29]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306658.15000000002, 8020914.4500000002], [306661.76000000001, 8020913.25]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306655.59999999998, 8020917.0], [306658.15000000002, 8020914.4500000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306681.52999999997, 8020883.6500000004], [306674.34000000003, 8020881.1399999997]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306674.34000000003, 8020881.1399999997], [306656.75, 8020875.0]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306663.29999999999, 8020913.1600000001], [306674.34000000003, 8020881.1399999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306681.52999999997, 8020883.6500000004], [306687.15999999997, 8020871.3200000003]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306687.15999999997, 8020871.3200000003], [306691.79999999999, 8020861.1699999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306657.15000000002, 8020861.5], [306687.15999999997, 8020871.3200000003]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306710.90999999997, 8020872.7800000003], [306710.07000000001, 8020871.0999999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306513.31, 8020937.2000000002], [306522.0, 8020942.2999999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306526.96999999997, 8020923.9500000002], [306513.31, 8020937.2000000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306673.71000000002, 8020912.8200000003], [306677.75, 8020913.5899999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306669.15000000002, 8020912.8200000003], [306673.71000000002, 8020912.8200000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306558.41999999998, 8020957.25], [306562.42999999999, 8020958.1699999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306653.84999999998, 8020918.75], [306655.59999999998, 8020917.0]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306654.28999999998, 8020848.1399999997], [306649.52000000002, 8020847.2400000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306649.52000000002, 8020847.2400000002], [306642.88, 8020845.6299999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306694.90999999997, 8020908.5599999996], [306696.27000000002, 8020902.9500000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306656.75, 8020875.0], [306654.28999999998, 8020874.1399999997]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306657.15000000002, 8020861.5], [306654.28999999998, 8020874.1399999997]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306628.22999999998, 8020865.0499999998], [306654.28999999998, 8020874.1399999997]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306625.40000000002, 8020841.0099999998], [306614.19, 8020837.9500000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306632.13, 8020842.4299999997], [306625.40000000002, 8020841.0099999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306619.09999999998, 8020967.79], [306620.25, 8020966.2999999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306617.60999999999, 8020968.7000000002], [306619.09999999998, 8020967.79]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306665.19, 8020850.2699999996], [306659.90000000002, 8020849.3700000001]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306606.48999999999, 8020968.3600000003], [306611.19, 8020969.3899999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306611.19, 8020969.3899999997], [306614.75, 8020969.1600000001]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306537.26000000001, 8020914.3300000001], [306526.96999999997, 8020923.9500000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306704.46000000002, 8020880.3799999999], [306707.03999999998, 8020876.3200000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306700.97999999998, 8020887.0300000003], [306704.46000000002, 8020880.3799999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306696.14000000001, 8020863.1699999999], [306691.79999999999, 8020861.1699999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306701.88, 8020865.5499999998], [306696.14000000001, 8020863.1699999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306587.82000000001, 8020962.5199999996], [306589.46999999997, 8020962.9799999995]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306582.97999999998, 8020961.0700000003], [306587.82000000001, 8020962.5199999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306684.20000000001, 8020914.1100000003], [306688.40999999997, 8020914.54]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306677.75, 8020913.5899999999], [306684.20000000001, 8020914.1100000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306697.69, 8020892.96], [306699.39000000001, 8020889.8799999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306696.46000000002, 8020898.3099999996], [306697.69, 8020892.96]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306659.90000000002, 8020849.3700000001], [306654.28999999998, 8020848.1399999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306659.90000000002, 8020849.3700000001], [306657.15000000002, 8020861.5]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306595.44, 8020849.9799999995], [306592.17999999999, 8020858.1299999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306597.27999999997, 8020844.0700000003], [306595.44, 8020849.9799999995]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306642.88, 8020845.6299999999], [306632.13, 8020842.4299999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306681.52999999997, 8020883.6500000004], [306699.39000000001, 8020889.8799999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306536.21999999997, 8020949.2699999996], [306541.20000000001, 8020952.2199999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306699.39000000001, 8020889.8799999999], [306700.97999999998, 8020887.0300000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306568.72999999998, 8020935.29], [306581.77000000002, 8020909.0599999996]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306581.77000000002, 8020909.0599999996], [306588.34999999998, 8020895.8099999996]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306581.77000000002, 8020909.0599999996], [306559.13, 8020895.5899999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306591.84000000003, 8020920.5899999999], [306582.60999999999, 8020940.3600000003]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306592.40000000002, 8020943.9299999997], [306582.60999999999, 8020940.3600000003]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306582.60999999999, 8020940.3600000003], [306576.15999999997, 8020960.5499999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306710.07000000001, 8020871.0999999996], [306707.62, 8020868.7800000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306625.40999999997, 8020887.1799999997], [306651.28999999998, 8020893.4699999997]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306625.40999999997, 8020887.1799999997], [306624.71999999997, 8020909.5]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306645.09999999998, 8020914.4500000002], [306651.28999999998, 8020893.4699999997]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306651.28999999998, 8020893.4699999997], [306656.75, 8020875.0]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306554.27999999997, 8020902.5499999998], [306539.59999999998, 8020912.1299999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306539.59999999998, 8020912.1299999999], [306537.26000000001, 8020914.3300000001]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306554.64000000001, 8020930.1399999997], [306568.72999999998, 8020935.29]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306691.79999999999, 8020861.1699999999], [306678.46999999997, 8020855.04]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306600.52999999997, 8020966.7199999997], [306606.48999999999, 8020968.3600000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306558.15000000002, 8020897.2599999998], [306554.27999999997, 8020902.5499999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306559.13, 8020895.5899999999], [306558.15000000002, 8020897.2599999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306598.5, 8020838.1600000001], [306597.27999999997, 8020844.0700000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306605.73999999999, 8020948.7999999998], [306600.52999999997, 8020966.7199999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306696.27000000002, 8020902.9500000002], [306696.46000000002, 8020898.3099999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306604.73999999999, 8020904.6500000004], [306624.71999999997, 8020909.5]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306626.57000000001, 8020909.9500000002], [306624.71999999997, 8020909.5]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306661.76000000001, 8020913.25], [306663.29999999999, 8020913.1600000001]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306688.40999999997, 8020914.54], [306691.51000000001, 8020914.54]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306632.13, 8020842.4299999997], [306628.22999999998, 8020865.0499999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306645.09999999998, 8020914.4500000002], [306655.59999999998, 8020917.0]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306626.57000000001, 8020909.9500000002], [306645.09999999998, 8020914.4500000002]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306592.40000000002, 8020943.9299999997], [306589.46999999997, 8020962.9799999995]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306614.75, 8020969.1600000001], [306617.60999999999, 8020968.7000000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306691.51000000001, 8020914.54], [306692.63, 8020913.8499999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306537.26000000001, 8020914.3300000001], [306554.64000000001, 8020930.1399999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306562.42999999999, 8020958.1699999999], [306568.14000000001, 8020959.1799999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306663.29999999999, 8020913.1600000001], [306669.15000000002, 8020912.8200000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306594.57000000001, 8020899.1699999999], [306588.34999999998, 8020895.8099999996]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306613.64000000001, 8020929.25], [306618.37, 8020931.1299999999]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306613.64000000001, 8020929.25], [306591.84000000003, 8020920.5899999999]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306626.15000000002, 8020956.2599999998], [306605.73999999999, 8020948.7999999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306561.60999999999, 8020891.3499999996], [306559.13, 8020895.5899999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306554.64000000001, 8020930.1399999997], [306541.20000000001, 8020952.2199999997]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306637.94, 8020937.4900000002], [306642.84999999998, 8020931.1299999999]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306637.19, 8020938.5999999996], [306637.94, 8020937.4900000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306600.39000000001, 8020902.3099999996], [306591.84000000003, 8020920.5899999999]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306604.73999999999, 8020904.6500000004], [306600.39000000001, 8020902.3099999996]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306600.39000000001, 8020902.3099999996], [306594.57000000001, 8020899.1699999999]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306576.15999999997, 8020960.5499999998], [306582.97999999998, 8020961.0700000003]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306692.63, 8020913.8499999996], [306693.40000000002, 8020912.9900000002]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306707.62, 8020868.7800000003], [306701.88, 8020865.5499999998]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "true", "original_road": "true"}}, {"geometry": {"type": "LineString", "coordinates": [[306618.37, 8020931.1299999999], [306637.19, 8020938.5999999996]]}, "type": "Feature", "properties": {"interior": "false", "barrier": "false", "road": "false", "original_road": "false"}}, {"geometry": {"type": "LineString", "coordinates": [[306618.37, 8020931.1299999999], [306626.57000000001, 8020909.9500000002]]}, "type": "Feature", "properties": {"interior": "true", "barrier": "false", "road": "false", "original_road": "false"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174394588281416,
+            -17.891621429940002
+          ],
+          [
+            31.174345313971827,
+            -17.89154913976529
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174345313971827,
+            -17.89154913976529
+          ],
+          [
+            31.174169661327433,
+            -17.891377634952256
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17450358172133,
+            -17.891464429732643
+          ],
+          [
+            31.174345313971827,
+            -17.89154913976529
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174029791821624,
+            -17.89073384509366
+          ],
+          [
+            31.17408520079764,
+            -17.89072298056329
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.173985400299454,
+            -17.890746981319175
+          ],
+          [
+            31.174029791821624,
+            -17.89073384509366
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17436193128702,
+            -17.891280685206
+          ],
+          [
+            31.174169661327433,
+            -17.891377634952256
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174169661327433,
+            -17.891377634952256
+          ],
+          [
+            31.174109210734695,
+            -17.891318611723037
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17417709304369,
+            -17.89070640464923
+          ],
+          [
+            31.174245622091547,
+            -17.89069521133802
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174245622091547,
+            -17.89069521133802
+          ],
+          [
+            31.174252893037156,
+            -17.890694737409564
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1753547297647,
+            -17.89113476941315
+          ],
+          [
+            31.175359826085927,
+            -17.89114394251524
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175359826085927,
+            -17.89114394251524
+          ],
+          [
+            31.17536856846222,
+            -17.891174924126734
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17520850417461,
+            -17.89165697725131
+          ],
+          [
+            31.175162703747198,
+            -17.891678683776362
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175162703747198,
+            -17.891678683776362
+          ],
+          [
+            31.175082758284056,
+            -17.891698895735775
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174724181800197,
+            -17.89073791568544
+          ],
+          [
+            31.174792120636283,
+            -17.89084905049106
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174792120636283,
+            -17.89084905049106
+          ],
+          [
+            31.174826719493662,
+            -17.890898434814655
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17551195323872,
+            -17.891493757472986
+          ],
+          [
+            31.17551623453472,
+            -17.89149957998627
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175480045507246,
+            -17.891467257009953
+          ],
+          [
+            31.17551195323872,
+            -17.891493757472986
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17466943927155,
+            -17.890646691199727
+          ],
+          [
+            31.17471620021059,
+            -17.890724830476955
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17471620021059,
+            -17.890724830476955
+          ],
+          [
+            31.174724181800197,
+            -17.89073791568544
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174424783089624,
+            -17.890662015963812
+          ],
+          [
+            31.17447688021422,
+            -17.89064280807457
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17447688021422,
+            -17.89064280807457
+          ],
+          [
+            31.174483408321237,
+            -17.890641152624113
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174712155720613,
+            -17.891424914348868
+          ],
+          [
+            31.17450358172133,
+            -17.891464429732643
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1747353822659,
+            -17.8915621025924
+          ],
+          [
+            31.174712155720613,
+            -17.891424914348868
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174712155720613,
+            -17.891424914348868
+          ],
+          [
+            31.174710818115283,
+            -17.89136192789536
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174477154517255,
+            -17.89182476858262
+          ],
+          [
+            31.17445237641576,
+            -17.891802400547803
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17460040231145,
+            -17.891805685625926
+          ],
+          [
+            31.174477154517255,
+            -17.89182476858262
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174603647353717,
+            -17.890980821044185
+          ],
+          [
+            31.174507996769844,
+            -17.890811241030118
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174530912205984,
+            -17.890803505055402
+          ],
+          [
+            31.174507996769844,
+            -17.890811241030118
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174404591445942,
+            -17.890846321250738
+          ],
+          [
+            31.174507996769844,
+            -17.890811241030118
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174879435010602,
+            -17.890966420328336
+          ],
+          [
+            31.174924343663704,
+            -17.8910134618196
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174924343663704,
+            -17.8910134618196
+          ],
+          [
+            31.174982083214633,
+            -17.891079235649293
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17392225514724,
+            -17.89076689861603
+          ],
+          [
+            31.173985400299454,
+            -17.890746981319175
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17379151739713,
+            -17.890835603408977
+          ],
+          [
+            31.17387499328532,
+            -17.890793108636714
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.173740175005893,
+            -17.890854818181964
+          ],
+          [
+            31.17379151739713,
+            -17.890835603408977
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17450358172133,
+            -17.891464429732643
+          ],
+          [
+            31.174420931271314,
+            -17.89125088077292
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174378705211346,
+            -17.890673961924303
+          ],
+          [
+            31.174424783089624,
+            -17.890662015963812
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17419910721817,
+            -17.890915951853927
+          ],
+          [
+            31.174123122515073,
+            -17.890715023945976
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174311887116684,
+            -17.89087770704403
+          ],
+          [
+            31.17419910721817,
+            -17.890915951853927
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17419910721817,
+            -17.890915951853927
+          ],
+          [
+            31.17418045256025,
+            -17.89092228213855
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175022259190143,
+            -17.89111846266901
+          ],
+          [
+            31.175056210922797,
+            -17.891129622859367
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174998433900214,
+            -17.891095200134888
+          ],
+          [
+            31.175022259190143,
+            -17.89111846266901
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17524001943989,
+            -17.89139878132336
+          ],
+          [
+            31.17517194545699,
+            -17.891420821228326
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17517194545699,
+            -17.891420821228326
+          ],
+          [
+            31.17500540562268,
+            -17.891474735319022
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175070733456014,
+            -17.891130572111983
+          ],
+          [
+            31.17517194545699,
+            -17.891420821228326
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17524001943989,
+            -17.89139878132336
+          ],
+          [
+            31.175292003367563,
+            -17.89151066997785
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175292003367563,
+            -17.89151066997785
+          ],
+          [
+            31.175334847388257,
+            -17.891602776681452
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17500793296189,
+            -17.891596731453216
+          ],
+          [
+            31.175292003367563,
+            -17.89151066997785
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17551623453472,
+            -17.89149957998627
+          ],
+          [
+            31.175508153471863,
+            -17.89151468306602
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17365770832341,
+            -17.890900123203693
+          ],
+          [
+            31.173740175005893,
+            -17.890854818181964
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17378537394789,
+            -17.8910210341712
+          ],
+          [
+            31.17365770832341,
+            -17.890900123203693
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175168926800865,
+            -17.891134564235315
+          ],
+          [
+            31.175207117795765,
+            -17.891127965183124
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17512590039809,
+            -17.89113416101705
+          ],
+          [
+            31.175168926800865,
+            -17.891134564235315
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17408520079764,
+            -17.89072298056329
+          ],
+          [
+            31.174123122515073,
+            -17.890715023945976
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174982083214633,
+            -17.891079235649293
+          ],
+          [
+            31.174998433900214,
+            -17.891095200134888
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174979713025884,
+            -17.89171717450919
+          ],
+          [
+            31.174934621870126,
+            -17.891724883381347
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174934621870126,
+            -17.891724883381347
+          ],
+          [
+            31.174871820471502,
+            -17.891738841090334
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17536856846222,
+            -17.891174924126734
+          ],
+          [
+            31.175380882856945,
+            -17.891225725854085
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17500540562268,
+            -17.891474735319022
+          ],
+          [
+            31.174982114534533,
+            -17.89148228712319
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17500793296189,
+            -17.891596731453216
+          ],
+          [
+            31.174982114534533,
+            -17.89148228712319
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1747353822659,
+            -17.8915621025924
+          ],
+          [
+            31.174982114534533,
+            -17.89148228712319
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174706458605186,
+            -17.89177903274137
+          ],
+          [
+            31.17460040231145,
+            -17.891805685625926
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174770091682397,
+            -17.89176679953294
+          ],
+          [
+            31.174706458605186,
+            -17.89177903274137
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174658725988614,
+            -17.890633128633716
+          ],
+          [
+            31.17466943927155,
+            -17.890646691199727
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17464475102957,
+            -17.890624775790382
+          ],
+          [
+            31.174658725988614,
+            -17.890633128633716
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175082758284056,
+            -17.891698895735775
+          ],
+          [
+            31.17503276060006,
+            -17.891706558647368
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174539795916925,
+            -17.890626863835625
+          ],
+          [
+            31.174584238317056,
+            -17.890617974402304
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174584238317056,
+            -17.890617974402304
+          ],
+          [
+            31.174617807750714,
+            -17.890620367130687
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17388157722516,
+            -17.89110885299836
+          ],
+          [
+            31.17378537394789,
+            -17.8910210341712
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1754560764756,
+            -17.891430350330218
+          ],
+          [
+            31.175480045507246,
+            -17.891467257009953
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175423854552662,
+            -17.891369965673228
+          ],
+          [
+            31.1754560764756,
+            -17.891430350330218
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175375982759434,
+            -17.891585092147736
+          ],
+          [
+            31.175334847388257,
+            -17.891602776681452
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17543036310799,
+            -17.891564098413433
+          ],
+          [
+            31.175375982759434,
+            -17.891585092147736
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174363093993826,
+            -17.890677971663386
+          ],
+          [
+            31.174378705211346,
+            -17.890673961924303
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1743172917847,
+            -17.890690642992617
+          ],
+          [
+            31.174363093993826,
+            -17.890677971663386
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17526802553246,
+            -17.891123837747692
+          ],
+          [
+            31.175307789179946,
+            -17.891120325311434
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175207117795765,
+            -17.891127965183124
+          ],
+          [
+            31.17526802553246,
+            -17.891123837747692
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175393358931675,
+            -17.891316102386654
+          ],
+          [
+            31.175409115080093,
+            -17.891344077818356
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175382247151244,
+            -17.891267661027978
+          ],
+          [
+            31.175393358931675,
+            -17.891316102386654
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17503276060006,
+            -17.891706558647368
+          ],
+          [
+            31.174979713025884,
+            -17.89171717450919
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17503276060006,
+            -17.891706558647368
+          ],
+          [
+            31.17500793296189,
+            -17.891596731453216
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17442459544392,
+            -17.89169534646777
+          ],
+          [
+            31.174394588281416,
+            -17.891621429940002
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17444141097586,
+            -17.89174890093134
+          ],
+          [
+            31.17442459544392,
+            -17.89169534646777
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174871820471502,
+            -17.891738841090334
+          ],
+          [
+            31.174770091682397,
+            -17.89176679953294
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17524001943989,
+            -17.89139878132336
+          ],
+          [
+            31.175409115080093,
+            -17.891344077818356
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17387499328532,
+            -17.890793108636714
+          ],
+          [
+            31.17392225514724,
+            -17.89076689861603
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175409115080093,
+            -17.891344077818356
+          ],
+          [
+            31.175423854552662,
+            -17.891369965673228
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17418045256025,
+            -17.89092228213855
+          ],
+          [
+            31.174301069194446,
+            -17.891160400919624
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174301069194446,
+            -17.891160400919624
+          ],
+          [
+            31.17436193128702,
+            -17.891280685206
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174301069194446,
+            -17.891160400919624
+          ],
+          [
+            31.174086202215584,
+            -17.8912800876064
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174397151091927,
+            -17.891057128258122
+          ],
+          [
+            31.174311887116684,
+            -17.89087770704403
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174404591445942,
+            -17.890846321250738
+          ],
+          [
+            31.174311887116684,
+            -17.89087770704403
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174311887116684,
+            -17.89087770704403
+          ],
+          [
+            31.174252893037156,
+            -17.890694737409564
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175508153471863,
+            -17.89151468306602
+          ],
+          [
+            31.17548482193391,
+            -17.891535425649813
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174710818115283,
+            -17.89136192789536
+          ],
+          [
+            31.174955593071424,
+            -17.891307392078488
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174710818115283,
+            -17.89136192789536
+          ],
+          [
+            31.17470636940683,
+            -17.891160225103942
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174899124443268,
+            -17.891117308605
+          ],
+          [
+            31.174955593071424,
+            -17.891307392078488
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174955593071424,
+            -17.891307392078488
+          ],
+          [
+            31.17500540562268,
+            -17.891474735319022
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174041082657986,
+            -17.891216780971206
+          ],
+          [
+            31.173903453226117,
+            -17.891128935130453
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.173903453226117,
+            -17.891128935130453
+          ],
+          [
+            31.17388157722516,
+            -17.89110885299836
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174047029077038,
+            -17.89096756128798
+          ],
+          [
+            31.17418045256025,
+            -17.89092228213855
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175334847388257,
+            -17.891602776681452
+          ],
+          [
+            31.17520850417461,
+            -17.89165697725131
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174483408321237,
+            -17.890641152624113
+          ],
+          [
+            31.174539795916925,
+            -17.890626863835625
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174077109635306,
+            -17.89126491390821
+          ],
+          [
+            31.174041082657986,
+            -17.891216780971206
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174086202215584,
+            -17.8912800876064
+          ],
+          [
+            31.174077109635306,
+            -17.89126491390821
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17445237641576,
+            -17.891802400547803
+          ],
+          [
+            31.17444141097586,
+            -17.89174890093134
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174530912205984,
+            -17.890803505055402
+          ],
+          [
+            31.174483408321237,
+            -17.890641152624113
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175380882856945,
+            -17.891225725854085
+          ],
+          [
+            31.175382247151244,
+            -17.891267661027978
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17451739778013,
+            -17.89120227337297
+          ],
+          [
+            31.17470636940683,
+            -17.891160225103942
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174723866861566,
+            -17.891156323371067
+          ],
+          [
+            31.17470636940683,
+            -17.891160225103942
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175056210922797,
+            -17.891129622859367
+          ],
+          [
+            31.175070733456014,
+            -17.891130572111983
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175307789179946,
+            -17.891120325311434
+          ],
+          [
+            31.17533703958592,
+            -17.89112059940263
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174770091682397,
+            -17.89176679953294
+          ],
+          [
+            31.1747353822659,
+            -17.8915621025924
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174899124443268,
+            -17.891117308605
+          ],
+          [
+            31.174998433900214,
+            -17.891095200134888
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174723866861566,
+            -17.891156323371067
+          ],
+          [
+            31.174899124443268,
+            -17.891117308605
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174404591445942,
+            -17.890846321250738
+          ],
+          [
+            31.174378705211346,
+            -17.890673961924303
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174617807750714,
+            -17.890620367130687
+          ],
+          [
+            31.17464475102957,
+            -17.890624775790382
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17533703958592,
+            -17.89112059940263
+          ],
+          [
+            31.175347543756928,
+            -17.891126931979493
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17388157722516,
+            -17.89110885299836
+          ],
+          [
+            31.174047029077038,
+            -17.89096756128798
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174123122515073,
+            -17.890715023945976
+          ],
+          [
+            31.17417709304369,
+            -17.89070640464923
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175070733456014,
+            -17.891130572111983
+          ],
+          [
+            31.17512590039809,
+            -17.89113416101705
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174420931271314,
+            -17.89125088077292
+          ],
+          [
+            31.17436193128702,
+            -17.891280685206
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174603647353717,
+            -17.890980821044185
+          ],
+          [
+            31.17464845143232,
+            -17.890964255247955
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174603647353717,
+            -17.890980821044185
+          ],
+          [
+            31.174397151091927,
+            -17.891057128258122
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174724181800197,
+            -17.89073791568544
+          ],
+          [
+            31.174530912205984,
+            -17.890803505055402
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174109210734695,
+            -17.891318611723037
+          ],
+          [
+            31.174086202215584,
+            -17.8912800876064
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174047029077038,
+            -17.89096756128798
+          ],
+          [
+            31.17392225514724,
+            -17.89076689861603
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174833693664088,
+            -17.890908529028568
+          ],
+          [
+            31.174879435010602,
+            -17.890966420328336
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174826719493662,
+            -17.890898434814655
+          ],
+          [
+            31.174833693664088,
+            -17.890908529028568
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17447613666527,
+            -17.891223028445104
+          ],
+          [
+            31.174397151091927,
+            -17.891057128258122
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17451739778013,
+            -17.89120227337297
+          ],
+          [
+            31.17447613666527,
+            -17.891223028445104
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17447613666527,
+            -17.891223028445104
+          ],
+          [
+            31.174420931271314,
+            -17.89125088077292
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.174252893037156,
+            -17.890694737409564
+          ],
+          [
+            31.1743172917847,
+            -17.890690642992617
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.175347543756928,
+            -17.891126931979493
+          ],
+          [
+            31.1753547297647,
+            -17.89113476941315
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17548482193391,
+            -17.891535425649813
+          ],
+          [
+            31.17543036310799,
+            -17.891564098413433
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "true",
+        "original_road": "true"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17464845143232,
+            -17.890964255247955
+          ],
+          [
+            31.174826719493662,
+            -17.890898434814655
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "false",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.17464845143232,
+            -17.890964255247955
+          ],
+          [
+            31.174723866861566,
+            -17.891156323371067
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "interior": "true",
+        "barrier": "false",
+        "road": "false",
+        "original_road": "false"
+      }
+    }
+  ]
+}
