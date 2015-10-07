@@ -9,6 +9,8 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="/bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -28,24 +30,35 @@
     <div class="header">
       <div class="container header-content">
       <ul class="nav nav-pills pull-right">
-        <li class=""><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <h3 class="site-title">Open Reblock</h3>
+      <h1 class="site-title">Open Reblock</h1>
       </div>
     </div>
 
     <div class="container">
         <div class="content-header row">
-            <h2 id="project-name">Example Project</h2>
+            <div class="col-md-5">
+              <h2 class="project-name">Example Project</h2>
+            </div>
         </div>
         <div class="content row">
           <div class="inline-dialog col-md-5">
-            <div id="layerconfigure" class="dialog-body fixed-width">
-              <div id="project-description" class="project">
-                <h3 class="project-location">Epworth, Zimbabwe</h3>
-                <p class="project-description">Project description or some text here after things are done.</p>
+            <div class="project-container">
+              <div class="project-header">
+                <h3 class="project-title">Epworth, Zimbabwe</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet, mei te iracundia disputando, movet nominavi eos at, et simul corpora pri. Conceptam scripserit id nec, per rebum fierent elaboraret ex. Dicant interpretaris ex has, nostrud civibus pro ne. Iriure numquam lucilius vim an. Altera delicata oportere ad nec, qui ea purto recusabo.</p>
+              </div>
+              <div class="project-stats">
+                <p><span class="orange">460m<sup>2</sup></span> of paths</p>
+                <p><span class="orange">10,000m<sup>2</sup></span> of parcels</p>
+                <p><span class="orange">12%</span> of area needed for paths</p>
+                <p><span class="orange">0</span> isolated parcels</p>
+              </div>
+              <div class="project-slider">
+                <h3>Step Selector</h3>
+                <div class="step-slider"></div>
               </div>
             </div>
           </div>
@@ -76,6 +89,8 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/leaflet/dist/leaflet-src.js"></script>
     <script src="/bower_components/leaflet-ajax/dist/leaflet.ajax.js"></script>
+    <script src="/bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="/bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

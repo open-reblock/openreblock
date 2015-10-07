@@ -53,3 +53,9 @@ geojsonLayer.on('data:loaded', function() {
   map.fitBounds(geojsonLayer.getBounds());
 });
 
+$('.step-slider').slider({
+    max: 5
+}).slider('pips', {
+    first: 'pip',
+    last: 'pip'
+}).slider('float');
