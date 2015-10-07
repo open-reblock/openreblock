@@ -1,0 +1,26 @@
+
+.map-container {
+    //display: inline-block;
+    // margin-left: 36px;
+    // vertical-align: top;
+    // padding-top: 56px;
+}
+
+
+#map {
+    height: 400px;
+    width:100%;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+}
+#preload {
+    display: table;
+    width: 100%;
+    background-color: $input-grey;
+    text-align: center;
+    font-size: 24px;
+
+    p {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

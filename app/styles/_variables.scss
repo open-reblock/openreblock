@@ -1,0 +1,49 @@
+// localcode-schem.less
+// Where variables are defined
+
+// Colors
+$hilite: #0000FF;
+$back: #FCFCFC;
+$text: #000;
+$links: $text;
+$gray: #CCCCCC;
+$darkishgray: #AAAAAA;
+$darkgray: #666666;
+$lightgray: #EEEEEE;
+$white: #FFFFFF;
+
+$orange: rgb(239, 136, 0);
+$red: rgba(239, 45, 0, 0.6);
+$dark-text: rgb(72, 72, 72);
+$med-text: rgb(100, 100, 100);
+$light-text: rgb(144, 144, 144);
+$input-grey: rgb(226, 226, 226);
+
+$project-width: 400px;
+$control-margin-bottom: 32px;
+
+// Typography
+$sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$vu: 24px;
+$char: 14px;
+$full: 960px;
+$pad: 24px;
+$gut: 24px;
+$col: ($full / 2) - ($gut * 2);
+$realtall: $vu * 25;
+
+@mixin bold(){font-weight:bold;}
+@mixin weight($value){font-weight:$value;}
+@mixin italic(){font-style:italic;}
+@mixin xpad(){
+  padding-left: $pad;
+  padding-right: $pad;
+}
+@mixin ypad( $denom:1 ){
+  padding-top: $vu / $denom;
+  padding-bottom: $vu / $denom;
+}
+@mixin guttermargins(){
+  margin-left: $gut / 2;
+  margin-right: $gut / 2;
+}

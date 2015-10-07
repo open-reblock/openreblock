@@ -1,0 +1,67 @@
+
+
+.header {
+    width: 100%;
+    margin-top: 40px;
+
+    background-color: $orange;
+    color: rgb(255,255,255);
+
+    .container.header-content {
+        width: 75%;
+        height: 75px;
+    }
+
+    a {
+        &:link,
+        &:visited,
+        &:hover,
+        &:focus,
+        &:active {
+            color: rgb(255,255,255);
+        }
+    }
+
+    h3.site-title {
+        display: inline-block;
+        position: relative;
+        margin:0;
+        font-size: 50px;
+        top: -0.14em;
+        max-width: 6em;
+
+        line-height: 0.85em;
+        font-weight: 500;
+    }
+}
+
+.nav {
+    position: relative;
+
+    font-size: 26px;
+    top: 0.6em;
+    font-weight: 200;
+
+    li {
+
+        margin:0;
+        padding:0;
+
+        &:not(:first-child) {
+            border-left: solid 2px rgb(255,255,255);
+        }
+
+        a {
+            // text-decoration: none;
+            color: $text;
+            border-radius:0;
+            height:45px;
+            @include xpad;
+            @include ypad(2.25);
+            &:hover {
+                color: $orange;
+                background-color: $white;
+            }
+        }
+    }
+}

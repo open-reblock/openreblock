@@ -1,0 +1,69 @@
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+body, select, input, textarea { color: $text; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+a, a:active, a:visited, {
+    text-decoration: none;
+}
+
+body {
+    font-family: $sans;
+    font-size: $char;
+    line-height: $vu;
+    color: $text;
+    background-color: $back;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: $control-margin-bottom;
+}
+
+h2 {
+    font-size: 32px;
+
+    &.with-dialog {
+        margin-left: 424px;
+    }
+}
+
+p {
+    margin-bottom: $vu;
+}
+
+.content {
+    color: $dark-text;
+    font-weight: 300;
+    margin-bottom:32px;
+
+    p {
+        font-size: 24px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}

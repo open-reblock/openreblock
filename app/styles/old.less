@@ -1,0 +1,317 @@
+@import "localcode-scheme.less";
+
+body, select, input, textarea { color: @text; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+a, a:active, a:visited, {
+    text-decoration: none;
+}
+
+body {
+    font-family: @sans;
+    font-size: @char;
+    line-height: @vu;
+    color: @text;
+    background-color: @back;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: @control-margin-bottom;
+}
+
+h2 {
+    font-size: 32px;
+
+    &.with-dialog {
+        margin-left: 424px;
+    }
+}
+
+p {
+    margin-bottom: @vu;
+}
+
+#content {
+    width: 75%;
+    margin: 0 12.5%;
+    padding-top: 100px;
+
+    color: @dark-text;
+    font-weight: 300;
+
+    p {
+        font-size: 24px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+#content {
+    height: @realtall;
+}
+#intro {
+    .bold;
+    .xpad;
+    margin-bottom: @vu;
+}
+.col {
+    float: left;
+    width: @col;
+    .guttermargins;
+}
+
+.inline-dialog {
+    display: inline-block;
+    &.absolute {
+        position: absolute;
+        max-width: 400px;
+        margin-top: -56px;
+    }
+
+    h2 {
+        padding-left: 0;
+        margin-bottom: @control-margin-bottom;
+    }
+
+    .dialog-body {
+        display: block;
+        box-sizing: border-box;
+        max-width: 460px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+        padding: 36px;
+
+        background: @white;
+
+        &.fixed-width {
+            width: 460px;
+        }
+    }
+
+    label {
+        display: block;
+        font-size: 24px;
+        color: @med-text;
+        padding-bottom: 8px;
+    }
+
+    input, textarea {
+        width: 100%;
+        box-sizing: border-box;
+
+        color: @dark-text;
+        font-size: 28px;
+        background-color: @input-grey;
+        padding-left: 10px;
+        margin-bottom: @control-margin-bottom;
+
+        border: none;
+        border-radius: 6px;
+        box-shadow: none;
+
+        &:invalid {
+            border: 2px @red solid;
+        }
+    }
+    input {
+        height: 55px;
+        &.confirm {
+            background-color: rgb(101, 216, 80);
+            border-color: rgb(239, 239, 239);
+            color: @white;
+            box-shadow: none;
+        }
+    }
+    textarea {
+        resize: none;
+        height: 140px;
+        font-size: 18px;
+    }
+
+    button,
+    .button {
+        width: 100%;
+        height: 40px;
+        margin-top: 16px;
+    }
+
+    textarea + button,
+    textarea + .button {
+        margin-top: 0;
+    }
+
+    .ui-slider {
+        margin-bottom: @control-margin-bottom;
+    }
+}
+
+.login-form {
+    p {
+        display: block;
+        margin-top: -16px;
+
+        a {
+            font-size: 20px;
+            color: @light-text;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    button,
+    .button {
+        width: 48%;
+    }
+    .button {
+        margin-left: 4%;
+    }
+}
+
+button,
+.button,
+a.button {
+    box-sizing: border-box;
+
+    font-size: 24px;
+    font-weight: 300;
+    color: @light-text;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px rgb(216, 216, 216) solid;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+    &.confirm {
+        background-color: rgb(101, 216, 80);
+        border-color: rgb(239, 239, 239);
+        color: @white;
+        box-shadow: none;
+    }
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 5px;
+
+    &.alone {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 6px;
+    }
+}
+
+.map-container {
+    display: inline-block;
+    margin-left: 36px;
+    vertical-align: top;
+    padding-top: 56px;
+}
+.map,
+#preload {
+    width: @project-width;
+    height: 400px;
+    display: inline-block;
+    margin: 0 24px 24px 0;
+
+    // hide placeholder until upload is implemented in recent.html
+    // (see comments in recent.html)
+    &.placeholder {
+        display: none;
+    }
+    &.not(.placeholder) {
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    }
+}
+#preload {
+    display: table;
+    width: 500px;
+    height: 500px;
+    background-color: @input-grey;
+    text-align: center;
+    font-size: 24px;
+
+    p {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+// display placeholder once upload is implemented in recent.html
+// (see comments in recent.html)
+.inline-dialog + #update {
+    .placeholder {
+        display: inline-block;
+    }
+}
+
+#fileuploader {
+    ul {
+        margin: 0 0 24px 24px;
+        font-size: 24px;
+    }
+}
+.shp_upload {
+    input {
+        height: auto;
+        font-size: 18px;
+        font-weight: 300;
+        padding-left: 0;
+        margin-bottom: 0;
+        background-color: transparent;
+    }
+}
+
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+#minbeds {
+    display: none;
+}
+@import "localcode-scheme.less";
+
+#pagesubtitle {
+  margin-left: @gut;
+  font-size: 18px;
+  color: @darkgray;
+}
+
+#search {
+  padding-left: @gut;
+  border: 1px solid @gray;
+  .bold;
+  background-color: @white;
+}
+
+#layerlist, #fileupload-content {
+  background-color: @lightgray;
+  overflow: auto;
+  height: @realtall;
+}
+
+.layerset {
+  // style for any layer stack
+  background-color: @gray;
+  .layerblock {
+    div {
+      .xpad;
+    }
+    margin: @vu / 8;
+    background-color: @back;
+    .ypad(2);
+    .layernotes {
+    overflow: auto;
+    }
+  }
+}
+.config {
+  // style for the config column
+}
+
+
