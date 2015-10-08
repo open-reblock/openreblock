@@ -40,9 +40,8 @@ var tiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?ac
     id: 'joeahand.jc5epc4l',
     accessToken: 'pk.eyJ1Ijoiam9lYWhhbmQiLCJhIjoiaDd1MEJZQSJ9.fl3WTCt8MGNOSCGR_qqz7A'
 });
-tiles.addTo(map);
 
-var geojsonLayer = new L.GeoJSON.AJAX('data/epworth/epworth_0.json', {
+var geojsonLayer = new L.GeoJSON.AJAX(projectData.steps[0].file, {
     style: function(feature) {
         'use strict';
         if (feature.properties.road === 'true') {
@@ -57,38 +56,36 @@ var geojsonLayer = new L.GeoJSON.AJAX('data/epworth/epworth_0.json', {
     }
 });
 
+var setStats = function(data) {
+    'use strict';
+    $('#stat-paths').text(data.pathArea);
+    $('#stat-parcels').text(data.parcelArea);
+    $('#stat-area').text(data.pathPercent);
+    $('#stat-isolated').text(data.isolatedParcels);
+}
+
+var initSlider = function(steps) {
+    'use strict';
+    $('.step-slider').slider({
+        max: steps,
+        change: function(event, ui) {
+            'use strict';
+            var step = ui.value,
+                stepData = projectData.steps[step];
+            setStats(stepData);
+            geojsonLayer.refresh(stepData.file);
+        }
+    }).slider('pips', {
+        first: 'pip',
+        last: 'pip'
+    }).slider('float');
+}
+
+tiles.addTo(map);
 geojsonLayer.addTo(map);
 geojsonLayer.on('data:loaded', function() {
   'use strict';
   map.fitBounds(geojsonLayer.getBounds());
 });
-
-
-var statData = {};
-$.getJSON( 'data/epworth/stats.json', function( data ) {
-    'use strict';
-    var steps = data.total_steps - 1;
-    $('.step-slider').slider({
-        max: steps
-    }).slider('pips', {
-        first: 'pip',
-        last: 'pip'
-    }).slider('float');
-
-    statData = data;
-});
-
-$('.step-slider').slider({
-    change: function(event, ui) {
-        'use strict';
-        var step = ui.value,
-            path = 'data/epworth/',
-            stepData = statData.steps[step];
-
-        $('#stat-paths').text(stepData.path_area);
-        $('#stat-parcels').text(stepData.parcel_area);
-        $('#stat-area').text(stepData.path_percent);
-        $('#stat-isolated').text(stepData.isolated_parcels);
-        geojsonLayer.refresh(path + stepData.file);
-    }
-});
+initSlider(projectData.totalSteps - 1);
+setStats(projectData.steps[0]);
