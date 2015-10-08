@@ -5,7 +5,6 @@ You'll need something like this in your HTML:
 
 L.TopoJSON = L.GeoJSON.extend({
   addData: function(jsonData) {
-    'use strict';
     if (jsonData.type === 'Topology') {
       for (key in jsonData.objects) {
         geojson = topojson.feature(jsonData, jsonData.objects[key]);

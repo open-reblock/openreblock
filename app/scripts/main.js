@@ -54,7 +54,7 @@ var autoSlide = function () {
   if(curVal === (projectData.totalSteps - 1)) {
     console.log('done sliding');
     //$('.step-slider').slider('value', 0);
-    clearInterval( autoSlide );
+    clearInterval( autoSlideInt );
   } else {
     $('.step-slider').slider('value', (curVal + 1));
   }
