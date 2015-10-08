@@ -8,7 +8,7 @@ var tiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?ac
     accessToken: 'pk.eyJ1Ijoiam9lYWhhbmQiLCJhIjoiaDd1MEJZQSJ9.fl3WTCt8MGNOSCGR_qqz7A'
 });
 
-var geojsonLayer = new L.GeoJSON.AJAX(projectData.steps[0].file, {
+var topoLayer = new L.TopoJSON(null, {
     style: function(feature) {
         'use strict';
         if (feature.properties.road === 'true') {
@@ -22,6 +22,22 @@ var geojsonLayer = new L.GeoJSON.AJAX(projectData.steps[0].file, {
         }
     }
 });
+
+var loadTopoLayer = function(layer, file, replace) {
+    'use strict';
+    $.getJSON(file)
+      .done(
+        function(topoData) {
+            if (replace === true) {
+                topoLayer.clearLayers(); // inherited from LayerGroup
+                layer.addData(topoData);
+            } else {
+                layer.addData(topoData);
+                layer.addTo(map);
+                map.fitBounds(layer.getBounds());
+            }
+    });
+};
 
 var setStats = function(data) {
     'use strict';
@@ -44,7 +60,7 @@ var autoSlide = function () {
   }
 };
 
-var autoSlideInt = setInterval(autoSlide, 2000);
+var autoSlideInt = setInterval(autoSlide, projectData.intTime);
 
 var initSlider = function(steps) {
     'use strict';
@@ -56,17 +72,19 @@ var initSlider = function(steps) {
             }
             var step = ui.value,
                 stepData = projectData.steps[step];
-            setStats(stepData);
-            geojsonLayer.refresh(stepData.file);
+            if (typeof x !== 'undefined') {
+                setStats(stepData);
+            }
+            var newFilePath = projectData.filePath + step + '.topo.json';
+            loadTopoLayer(topoLayer, newFilePath, true);
         }
-    }).slider('float');
+    });
 };
 
+var filePath = projectData.filePath + '0.topo.json';
+
 tiles.addTo(map);
-geojsonLayer.addTo(map);
-geojsonLayer.on('data:loaded', function() {
-  'use strict';
-  map.fitBounds(geojsonLayer.getBounds());
-});
+loadTopoLayer(topoLayer, filePath, false);
+
 initSlider(projectData.totalSteps - 1);
 setStats(projectData.steps[0]);
