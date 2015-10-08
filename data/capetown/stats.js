@@ -1,15 +1,15 @@
 var projectData = {
-    totalSteps: 2,
+    totalSteps: 250,
+    intTime: 500,
+    filePath: 'data/capetown/CapeInt_Step',
     steps: [
         {
-            file: 'data/capetown/Cape_Step0.json',
             pathArea: 50,
             parcelArea: 10000,
             pathPercent: 12,
             isolatedParcels: 7
         },
         {
-            file: 'data/capetown/Cape_Step0.json',
             pathArea: 450,
             parcelArea: 8000,
             pathPercent: 25,
