@@ -19,6 +19,15 @@ $icon-font-path: '../fonts/';
 @import 'single_project';
 @import 'map';
 
+.intro-text {
+  display:block;
+  margin:15px auto 35px;
+  max-width:600px;
+  font-size:16px;
+  font-weight:400;
+
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

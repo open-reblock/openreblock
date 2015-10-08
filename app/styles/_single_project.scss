@@ -51,4 +51,17 @@ $project-box-padding: 15px 20px;
             margin:20px 5px;
         }
     }
+    .project-img {
+        padding:$project-box-padding;
+    }
+    .project-link {
+        text-decoration: none;
+        color:inherit;
+    }
+    &.link{
+        transition:all 0.5s ease-out;
+        &:hover{
+            background-color:darken($white, 5%);
+        }
+    }
 }
