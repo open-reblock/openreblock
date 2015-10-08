@@ -71,8 +71,15 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
 
+    <script>
+    {% block inline_scripts %}
+    {% endblock %}
+    </script>
+
+    {% block footer_scripts %}
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    {% endblock %}
   </body>
 </html>

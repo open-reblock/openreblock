@@ -129,7 +129,7 @@ gulp.task('serve', ['views', 'styles', 'fonts'], () => {
     '.tmp/*.html',
     'app/scripts/**/*.js',
     'app/images/**/*',
-    'app/data/**/*',
+    'app/data/**/*.*',
     '.tmp/fonts/**/*'
   ]).on('change', reload);
 
