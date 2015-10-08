@@ -62,14 +62,13 @@ var setStats = function(data) {
     $('#stat-parcels').text(data.parcelArea);
     $('#stat-area').text(data.pathPercent);
     $('#stat-isolated').text(data.isolatedParcels);
-}
+};
 
 var initSlider = function(steps) {
     'use strict';
     $('.step-slider').slider({
         max: steps,
         change: function(event, ui) {
-            'use strict';
             var step = ui.value,
                 stepData = projectData.steps[step];
             setStats(stepData);
@@ -79,7 +78,7 @@ var initSlider = function(steps) {
         first: 'pip',
         last: 'pip'
     }).slider('float');
-}
+};
 
 tiles.addTo(map);
 geojsonLayer.addTo(map);

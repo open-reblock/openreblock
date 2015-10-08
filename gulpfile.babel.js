@@ -35,7 +35,8 @@ function lint(files, options) {
 const deployLintOptions = {
   globals: {
     'L': true,
-    '$': true
+    '$': true,
+    'projectData': true // this is bootstrapped inline
   }
 };
 const testLintOptions = {
