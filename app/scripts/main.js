@@ -64,19 +64,34 @@ var setStats = function(data) {
     $('#stat-isolated').text(data.isolatedParcels);
 };
 
+var autoSlide = function () {
+  'use strict';
+  var curVal = $('.step-slider').slider('value');
+
+  if(curVal === (projectData.totalSteps - 1)) {
+    console.log('done sliding');
+    //$('.step-slider').slider('value', 0);
+    clearInterval( autoSlide );
+  } else {
+    $('.step-slider').slider('value', (curVal + 1));
+  }
+};
+
+var autoSlideInt = setInterval(autoSlide, 2000);
+
 var initSlider = function(steps) {
     'use strict';
     $('.step-slider').slider({
         max: steps,
         change: function(event, ui) {
+            if (event.originalEvent) {
+              clearInterval( autoSlideInt );
+            }
             var step = ui.value,
                 stepData = projectData.steps[step];
             setStats(stepData);
             geojsonLayer.refresh(stepData.file);
         }
-    }).slider('pips', {
-        first: 'pip',
-        last: 'pip'
     }).slider('float');
 };
 
