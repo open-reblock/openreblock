@@ -24,10 +24,15 @@ var topoLayer = new L.TopoJSON(null, {
     }
 });
 
+var numberWithCommas = function(x) {
+    'use strict';
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+};
+
 var setStats = function(data) {
     'use strict';
-    $('#stat-paths').text(data.pathArea);
-    $('#stat-parcels').text(data.parcelArea);
+    $('#stat-paths').text(data.pathLen);
+    $('#stat-parcels').text(numberWithCommas(data.parcelArea));
     $('#stat-area').text(data.pathPercent);
     $('#stat-isolated').text(data.isolatedParcels);
 };
