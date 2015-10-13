@@ -1,6 +1,6 @@
 <!doctype html> <html class=no-js> <head> <meta charset=utf-8> <meta name=description> <meta name=viewport content="width=device-width, initial-scale=1"> <title>Open Reblock</title> <link rel=stylesheet href=styles/vendor.css> <link rel=stylesheet href=styles/main.css> <script src=scripts/vendor/modernizr.js></script> </head> <body> <!--[if lt IE 10]>
  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
- <![endif]--> <div class=header> <div class="container header-content"> <ul class="nav nav-pills pull-right"> <li><a href="/">Home</a></li> <li><a href=/about.html>About</a></li>  </ul> <h1 class=site-title><a href="/">Open Reblock</a></h1> </div> </div> <div class=container> <div class="content-header row"> <div class=col-md-5> <h2 class=project-name>Epworth Project</h2> </div> </div> <div class="content row"> <div class=col-md-5> <div class=project-container> <div class=project-header> <h3 class=project-title>Epworth, Zimbabwe</h3> <p class=project-description> The data refer to an informal settlement in Epworth, a suburb of Harare, Zimbabwe. These maps and data were collected and created by neighborhood resident community members in collaboration with the Zimbabwe Homeless People's Federation and Dialogue on Shelter, which are federations of Slum/Shack Dwellers International (SDI). These organizations also geo-referenced and digitized the maps. </p> </div> <div class=project-stats> <p><span id=stat-paths class=orange></span><span class=orange>m<sup>2</sup></span> of paths</p> <p><span id=stat-parcels class=orange></span><span class=orange>m<sup>2</sup></span> of parcels</p> <p><span id=stat-area class=orange></span><span class=orange>%</span> of area needed for paths</p> <p><span id=stat-isolated class=orange></span> isolated parcels</p> </div> <div class=project-slider> <h3>Step Selector</h3> <div class=step-slider></div> </div> </div> </div> <div class="map-container col-md-7"> <div id=map> </div> </div> </div> <div class=footer> <p>♥ from Santa Fe</p> </div> </div>  <script>
+ <![endif]--> <div class=header> <div class="container header-content"> <ul class="nav nav-pills pull-right"> <li><a href="/">Home</a></li> <li><a href=/about.html>About</a></li>  </ul> <h1 class=site-title><a href="/">Open Reblock</a></h1> </div> </div> <div class=container> <div class="content-header row"> <div class=col-md-5> <h2 class=project-name>Epworth Project</h2> </div> </div> <div class="content row"> <div class=col-md-5> <div class=project-container> <div class=project-header> <h3 class=project-title>Epworth, Zimbabwe</h3> <p class=project-description> The data refer to an informal settlement in Epworth, a suburb of Harare, Zimbabwe. These maps and data were collected and created by neighborhood resident community members in collaboration with the Zimbabwe Homeless People's Federation and Dialogue on Shelter, which are federations of Slum/Shack Dwellers International (SDI). These organizations also geo-referenced and digitized the maps. </p> </div> <div class=project-stats> <p><span id=stat-paths class=orange></span><span class=orange>m</span> of paths</p> <p><span id=stat-parcels class=orange></span><span class=orange>m<sup>2</sup></span> of parcels</p> <p><span id=stat-area class=orange></span><span class=orange>%</span> of area needed for paths</p> <p><span id=stat-isolated class=orange></span> isolated parcels</p> </div> <div class=project-slider> <h3>Step Selector</h3> <div class=step-slider></div> </div> </div> </div> <div class="map-container col-md-7"> <div id=map> </div> </div> </div> <div class=footer> <p>♥ from Santa Fe</p> </div> </div>  <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
@@ -13,56 +13,7 @@
     totalSteps: 8,
     intTime: 2000,
     filePath: 'data/epworth/Epworth_Step',
-    steps: [
-        {
-            pathArea: 50,
-            parcelArea: 10000,
-            pathPercent: 12,
-            isolatedParcels: 7
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 6
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 5
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 4
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 3
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 2
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 1
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 0
-        }
-    ]
+    steps: [{"parcelArea": "13795", "isolatedParcels": "7", "pathLen": "0.00", "pathPercent": "0.00", "pathArea": "0.00"}, {"parcelArea": "13795", "isolatedParcels": "6", "pathLen": "11.16", "pathPercent": "0.06", "pathArea": "8.37"}, {"parcelArea": "13795", "isolatedParcels": "5", "pathLen": "21.97", "pathPercent": "0.12", "pathArea": "16.47"}, {"parcelArea": "13795", "isolatedParcels": "4", "pathLen": "41.18", "pathPercent": "0.22", "pathArea": "30.89"}, {"parcelArea": "13795", "isolatedParcels": "3", "pathLen": "60.25", "pathPercent": "0.33", "pathArea": "45.19"}, {"parcelArea": "13795", "isolatedParcels": "2", "pathLen": "83.90", "pathPercent": "0.46", "pathArea": "62.93"}, {"parcelArea": "13795", "isolatedParcels": "1", "pathLen": "96.58", "pathPercent": "0.53", "pathArea": "72.44"}, {"parcelArea": "13795", "isolatedParcels": "0", "pathLen": "119.11", "pathPercent": "0.65", "pathArea": "89.34"}]
 };
 
     </script> <script src=scripts/main.js></script> </body> </html> 
