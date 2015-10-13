@@ -1,10 +1,10 @@
 
 var DEFAULT_STYLES = {
                 weight: 2,
-                color: '#FFA500',
+                color: '#666666',
                 opacity: 0.7,
                 fillColor: '#B0DE5C',
-                fillOpacity: 0.7,
+                fillOpacity: 0.8,
                 dashArray: '1 3'
             };
 
