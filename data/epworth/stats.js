@@ -2,54 +2,5 @@ var projectData = {
     totalSteps: 8,
     intTime: 2000,
     filePath: 'data/epworth/Epworth_Step',
-    steps: [
-        {
-            pathArea: 50,
-            parcelArea: 10000,
-            pathPercent: 12,
-            isolatedParcels: 7
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 6
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 5
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 4
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 3
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 2
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 1
-        },
-        {
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 0
-        }
-    ]
+    steps: [{"parcelArea": "13795", "isolatedParcels": "7", "pathLen": "0.00", "pathPercent": "0.00", "pathArea": "0.00"}, {"parcelArea": "13795", "isolatedParcels": "6", "pathLen": "11.16", "pathPercent": "0.06", "pathArea": "8.37"}, {"parcelArea": "13795", "isolatedParcels": "5", "pathLen": "21.97", "pathPercent": "0.12", "pathArea": "16.47"}, {"parcelArea": "13795", "isolatedParcels": "4", "pathLen": "41.18", "pathPercent": "0.22", "pathArea": "30.89"}, {"parcelArea": "13795", "isolatedParcels": "3", "pathLen": "60.25", "pathPercent": "0.33", "pathArea": "45.19"}, {"parcelArea": "13795", "isolatedParcels": "2", "pathLen": "83.90", "pathPercent": "0.46", "pathArea": "62.93"}, {"parcelArea": "13795", "isolatedParcels": "1", "pathLen": "96.58", "pathPercent": "0.53", "pathArea": "72.44"}, {"parcelArea": "13795", "isolatedParcels": "0", "pathLen": "119.11", "pathPercent": "0.65", "pathArea": "89.34"}]
 };
