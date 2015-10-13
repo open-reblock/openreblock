@@ -9,9 +9,8 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="/bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" href="/bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css" />
     <!-- endbower -->
+    <link rel="stylesheet" href="/bower_components/jquery-ui/themes/smoothness/jquery-ui.css" />
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
@@ -50,25 +49,16 @@
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/leaflet/dist/leaflet-src.js"></script>
-    <script src="/bower_components/leaflet-ajax/dist/leaflet.ajax.js"></script>
-    <script src="/bower_components/jquery-ui/jquery-ui.js"></script>
-    <script src="/bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.min.js"></script>
+    <!-- <script src="/bower_components/jquery-ui/jquery-ui.js"></script> -->
+    <script src="/bower_components/topojson/topojson.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="/bower_components/jquery-ui/ui/core.js"></script>
+    <script src="/bower_components/jquery-ui/ui/widget.js"></script>
+    <script src="/bower_components/jquery-ui/ui/mouse.js"></script>
+    <script src="/bower_components/jquery-ui/ui/slider.js"></script>
     <!-- endbuild -->
 
     <script>
@@ -78,7 +68,8 @@
 
     {% block footer_scripts %}
     <!-- build:js scripts/main.js -->
-    <script src="scripts/map_styles.js"></script>
+    <script src="scripts/map-styles.js"></script>
+    <script src="scripts/leaflet-topo.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
     {% endblock %}

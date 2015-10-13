@@ -1,61 +1,6 @@
 var projectData = {
     totalSteps: 8,
-    steps: [
-        {
-            file: 'data/epworth/Epworth_Step0.json',
-            pathArea: 50,
-            parcelArea: 10000,
-            pathPercent: 12,
-            isolatedParcels: 7
-        },
-        {
-            file: 'data/epworth/Epworth_Step1.json',
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 6
-        },
-        {
-            file: 'data/epworth/Epworth_Step2.json',
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 5
-        },
-        {
-            file: 'data/epworth/Epworth_Step3.json',
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 4
-        },
-        {
-            file: 'data/epworth/Epworth_Step4.json',
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 3
-        },
-        {
-            file: 'data/epworth/Epworth_Step5.json',
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 2
-        },
-        {
-            file: 'data/epworth/Epworth_Step6.json',
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 1
-        },
-        {
-            file: 'data/epworth/Epworth_Step7.json',
-            pathArea: 450,
-            parcelArea: 8000,
-            pathPercent: 25,
-            isolatedParcels: 0
-        }
-    ]
+    intTime: 2000,
+    filePath: 'data/epworth/Epworth_Step',
+    steps: [{"parcelArea": "13795", "isolatedParcels": "7", "pathLen": "0", "pathPercent": "0.00", "pathArea": "0"}, {"parcelArea": "13795", "isolatedParcels": "6", "pathLen": "11", "pathPercent": "0.06", "pathArea": "8"}, {"parcelArea": "13795", "isolatedParcels": "5", "pathLen": "22", "pathPercent": "0.12", "pathArea": "16"}, {"parcelArea": "13795", "isolatedParcels": "4", "pathLen": "41", "pathPercent": "0.22", "pathArea": "31"}, {"parcelArea": "13795", "isolatedParcels": "3", "pathLen": "60", "pathPercent": "0.33", "pathArea": "45"}, {"parcelArea": "13795", "isolatedParcels": "2", "pathLen": "84", "pathPercent": "0.46", "pathArea": "63"}, {"parcelArea": "13795", "isolatedParcels": "1", "pathLen": "97", "pathPercent": "0.53", "pathArea": "72"}, {"parcelArea": "13795", "isolatedParcels": "0", "pathLen": "119", "pathPercent": "0.65", "pathArea": "89"}, {"parcelArea": "13795", "isolatedParcels": "0", "pathLen": "105", "pathPercent": "0.57", "pathArea": "78"}]
 };

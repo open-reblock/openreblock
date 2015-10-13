@@ -1,5 +1,6 @@
 
-var map = L.map('map', { zoomControl: false });
+var map = L.map('map', { zoomControl: false }),
+    autoSlideInt;
 
 var tiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -8,7 +9,7 @@ var tiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?ac
     accessToken: 'pk.eyJ1Ijoiam9lYWhhbmQiLCJhIjoiaDd1MEJZQSJ9.fl3WTCt8MGNOSCGR_qqz7A'
 });
 
-var geojsonLayer = new L.GeoJSON.AJAX(projectData.steps[0].file, {
+var topoLayer = new L.TopoJSON(null, {
     style: function(feature) {
         'use strict';
         if (feature.properties.road === 'true') {
@@ -23,10 +24,15 @@ var geojsonLayer = new L.GeoJSON.AJAX(projectData.steps[0].file, {
     }
 });
 
+var numberWithCommas = function(x) {
+    'use strict';
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+};
+
 var setStats = function(data) {
     'use strict';
-    $('#stat-paths').text(data.pathArea);
-    $('#stat-parcels').text(data.parcelArea);
+    $('#stat-paths').text(data.pathLen);
+    $('#stat-parcels').text(numberWithCommas(data.parcelArea));
     $('#stat-area').text(data.pathPercent);
     $('#stat-isolated').text(data.isolatedParcels);
 };
@@ -38,13 +44,11 @@ var autoSlide = function () {
   if(curVal === (projectData.totalSteps - 1)) {
     console.log('done sliding');
     //$('.step-slider').slider('value', 0);
-    clearInterval( autoSlide );
+    clearInterval( autoSlideInt );
   } else {
     $('.step-slider').slider('value', (curVal + 1));
   }
 };
-
-var autoSlideInt = setInterval(autoSlide, 2000);
 
 var initSlider = function(steps) {
     'use strict';
@@ -56,17 +60,37 @@ var initSlider = function(steps) {
             }
             var step = ui.value,
                 stepData = projectData.steps[step];
-            setStats(stepData);
-            geojsonLayer.refresh(stepData.file);
+            if (typeof stepData !== 'undefined') {
+                setStats(stepData);
+            }
+            var newFilePath = projectData.filePath + step + '.topo.json';
+            loadTopoLayer(topoLayer, newFilePath, true);
         }
-    }).slider('float');
+    });
 };
 
+var loadTopoLayer = function(layer, file, replace) {
+    'use strict';
+    $.getJSON(file)
+      .done(
+        function(topoData) {
+            if (replace === true) {
+                topoLayer.clearLayers();
+                layer.addData(topoData);
+            } else {
+                layer.addData(topoData);
+                layer.addTo(map);
+                map.fitBounds(layer.getBounds());
+
+                initSlider(projectData.totalSteps - 1);
+                setStats(projectData.steps[0]);
+                autoSlideInt = setInterval(autoSlide, projectData.intTime);
+            }
+    });
+};
+
+var filePath = projectData.filePath + '0.topo.json';
+
 tiles.addTo(map);
-geojsonLayer.addTo(map);
-geojsonLayer.on('data:loaded', function() {
-  'use strict';
-  map.fitBounds(geojsonLayer.getBounds());
-});
-initSlider(projectData.totalSteps - 1);
-setStats(projectData.steps[0]);
+loadTopoLayer(topoLayer, filePath, false);
+
