@@ -2,17 +2,16 @@
 var DEFAULT_STYLES = {
                 weight: 2,
                 color: '#FFA500',
-                opacity: 0.8,
+                opacity: 0.7,
                 fillColor: '#B0DE5C',
-                fillOpacity: 0.8,
-                dashArray: '4'
+                fillOpacity: 0.7,
+                dashArray: '1 3'
             };
 
 var INNER_STYLES = {
-                weight: 2.5,
+                weight: 2.25,
                 color: '#FFA500',
                 opacity: 0.8,
-                fillColor: '#blue',
                 fillOpacity: 0.8
              };
 

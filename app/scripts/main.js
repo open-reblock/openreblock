@@ -1,5 +1,6 @@
 
-var map = L.map('map', { zoomControl: false });
+var map = L.map('map', { zoomControl: false }),
+    autoSlideInt;
 
 var tiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -23,22 +24,6 @@ var topoLayer = new L.TopoJSON(null, {
     }
 });
 
-var loadTopoLayer = function(layer, file, replace) {
-    'use strict';
-    $.getJSON(file)
-      .done(
-        function(topoData) {
-            if (replace === true) {
-                topoLayer.clearLayers(); // inherited from LayerGroup
-                layer.addData(topoData);
-            } else {
-                layer.addData(topoData);
-                layer.addTo(map);
-                map.fitBounds(layer.getBounds());
-            }
-    });
-};
-
 var setStats = function(data) {
     'use strict';
     $('#stat-paths').text(data.pathArea);
@@ -60,8 +45,6 @@ var autoSlide = function () {
   }
 };
 
-var autoSlideInt = setInterval(autoSlide, projectData.intTime);
-
 var initSlider = function(steps) {
     'use strict';
     $('.step-slider').slider({
@@ -72,7 +55,7 @@ var initSlider = function(steps) {
             }
             var step = ui.value,
                 stepData = projectData.steps[step];
-            if (typeof x !== 'undefined') {
+            if (typeof stepData !== 'undefined') {
                 setStats(stepData);
             }
             var newFilePath = projectData.filePath + step + '.topo.json';
@@ -81,10 +64,28 @@ var initSlider = function(steps) {
     });
 };
 
+var loadTopoLayer = function(layer, file, replace) {
+    'use strict';
+    $.getJSON(file)
+      .done(
+        function(topoData) {
+            if (replace === true) {
+                topoLayer.clearLayers();
+                layer.addData(topoData);
+            } else {
+                layer.addData(topoData);
+                layer.addTo(map);
+                map.fitBounds(layer.getBounds());
+
+                initSlider(projectData.totalSteps - 1);
+                setStats(projectData.steps[0]);
+                autoSlideInt = setInterval(autoSlide, projectData.intTime);
+            }
+    });
+};
+
 var filePath = projectData.filePath + '0.topo.json';
 
 tiles.addTo(map);
 loadTopoLayer(topoLayer, filePath, false);
 
-initSlider(projectData.totalSteps - 1);
-setStats(projectData.steps[0]);
