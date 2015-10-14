@@ -1,15 +1,19 @@
 
 
-.header {
-    width: 100%;
-    margin-top: 40px;
+.navbar {
+    border-radius: 0;
+    margin-top: 20px;
+    padding:13px 0;
 
     background-color: $orange;
     color: rgb(255,255,255);
 
-    .container.header-content {
-        width: 75%;
-        height: 75px;
+    @include tablet {
+        margin-top: 30px;
+    }
+
+    @include desktop {
+        margin-top: 40px;
     }
 
     a {
@@ -22,15 +26,11 @@
         }
     }
 
-    h1.site-title {
-        display: inline-block;
+    .navbar-brand {
         position: relative;
-        margin:0;
         font-size: 50px;
-        top: -0.14em;
-        max-width: 6em;
-
         line-height: 0.85em;
+        top:-0.67em;
         font-weight: 500;
 
         a:hover {
@@ -40,28 +40,17 @@
 }
 
 .nav {
-    position: relative;
-
     font-size: 26px;
-    top: 0.6em;
     font-weight: 200;
 
     li {
-
-        margin:0 !important;
-        padding:0;
-
         &:not(:first-child) {
             border-left: solid 2px rgb(255,255,255);
         }
 
         a {
-            // text-decoration: none;
             color: $text;
             border-radius:0;
-            height:45px;
-            @include xpad;
-            @include ypad(2.25);
             &:hover {
                 color: $orange;
                 background-color: $white;

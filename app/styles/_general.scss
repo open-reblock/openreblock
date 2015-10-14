@@ -44,12 +44,6 @@ p {
     margin-bottom:32px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 /* Custom page footer */
 .footer {
@@ -58,6 +52,3 @@ p {
   border-top: 1px solid #e5e5e5;
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
-}

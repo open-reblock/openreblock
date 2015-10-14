@@ -32,6 +32,23 @@ $gut: 24px;
 $col: ($full / 2) - ($gut * 2);
 $realtall: $vu * 25;
 
+
+// MEDIA QUERIES
+$tablet-width: 768px;
+$desktop-width: 992px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
 @mixin bold(){font-weight:bold;}
 @mixin weight($value){font-weight:$value;}
 @mixin italic(){font-style:italic;}
