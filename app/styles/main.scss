@@ -21,16 +21,16 @@ $icon-font-path: '../fonts/';
 
 .intro-text {
   display:block;
-  margin:15px auto 35px;
+  margin:20px auto 40px;
   max-width:600px;
-  font-size:16px;
+  font-size:18px;
   font-weight:400;
-
+  text-align: justify;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container-fluid {
-    max-width: 960px;
+    max-width: 940px;
   }
 }

@@ -3,7 +3,7 @@
 .navbar {
     border-radius: 0;
     margin-top: 20px;
-    padding:13px 0;
+    padding:10px 0;
 
     background-color: $orange;
     color: rgb(255,255,255);
@@ -13,7 +13,7 @@
     }
 
     @include desktop {
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     a {
@@ -28,7 +28,7 @@
 
     .navbar-brand {
         position: relative;
-        font-size: 50px;
+        font-size: 48px;
         line-height: 0.85em;
         top:-0.67em;
         font-weight: 500;
@@ -47,10 +47,12 @@
         &:not(:first-child) {
             border-left: solid 2px rgb(255,255,255);
         }
+        margin-top:5px;
 
         a {
             color: $text;
             border-radius:0;
+            padding:10px 25px;
             &:hover {
                 color: $orange;
                 background-color: $white;
