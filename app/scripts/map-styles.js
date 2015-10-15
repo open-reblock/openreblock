@@ -1,7 +1,4 @@
-/* exported DEFAULT_STYLES */
-/* exported INNER_STYLES */
-/* exported ORIGINAL_ROAD_STYLES */
-/* exported NEW_ROAD_STYLES */
+/* exported DEFAULT_STYLES, INNER_STYLES, ORIGINAL_ROAD_STYLES, NEW_ROAD_STYLES */
 
 var DEFAULT_STYLES = {
                 weight: 2,
