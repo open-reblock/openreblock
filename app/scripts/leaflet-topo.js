@@ -1,3 +1,5 @@
+/*global topojson*/
+
 /*
 You'll need something like this in your HTML:
 <script src="http://d3js.org/topojson.v1.min.js"></script>
@@ -5,9 +7,10 @@ You'll need something like this in your HTML:
 
 L.TopoJSON = L.GeoJSON.extend({
   addData: function(jsonData) {
+    'use strict';
     if (jsonData.type === 'Topology') {
-      for (key in jsonData.objects) {
-        geojson = topojson.feature(jsonData, jsonData.objects[key]);
+      for (var key in jsonData.objects) {
+        var geojson = topojson.feature(jsonData, jsonData.objects[key]);
         L.GeoJSON.prototype.addData.call(this, geojson);
       }
     }
