@@ -1,3 +1,4 @@
+/*eslint no-use-before-define: [2, "nofunc"]*/
 
 var map = L.map('map', { zoomControl: false }),
     autoSlideInt;
@@ -69,7 +70,7 @@ var initSlider = function(steps) {
     });
 };
 
-var loadTopoLayer = function(layer, file, replace) {
+function loadTopoLayer(layer, file, replace) {
     'use strict';
     $.getJSON(file)
       .done(
@@ -87,7 +88,7 @@ var loadTopoLayer = function(layer, file, replace) {
                 autoSlideInt = setInterval(autoSlide, projectData.intTime);
             }
     });
-};
+}
 
 var filePath = projectData.filePath + '0.topo.json';
 
