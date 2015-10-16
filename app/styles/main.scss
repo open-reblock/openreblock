@@ -28,6 +28,12 @@ $icon-font-path: '../fonts/';
   text-align: justify;
 }
 
+.about-logos {
+  display:block;
+  margin:20px auto;
+  width:200px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container-fluid {
