@@ -31,7 +31,12 @@ $icon-font-path: '../fonts/';
 .about-logos {
   display:block;
   margin:20px auto;
-  width:200px;
+  width:600px;
+
+  img {
+    display:inline-block;
+    margin:0 20px;
+  }
 }
 
 /* Responsive: Portrait tablets and up */
